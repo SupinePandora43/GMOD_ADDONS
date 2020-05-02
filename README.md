@@ -1,4 +1,4 @@
-# [Tesla 2K](https://steamcommunity.com/sharedfiles/filedetails/?id=2080157683)
-simple background
+# [[simphys] LW Trailers Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=2081658555)
+LW Trailers but on Simfphys with Trailers BASE (beta) support
 
-[![Tesla 2K image](https://steamuserimages-a.akamaihd.net/ugc/1008187611291986950/7BA8FA2668DFA6AAB4B09EBD1C5BCBDA020B4DA6/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)](https://steamcommunity.com/sharedfiles/filedetails/?id=2080157683)
+[![img](https://steamuserimages-a.akamaihd.net/ugc/1008187723841159394/B75273B60BE7D15B09954E89D5B65713B8691798/?imw=268&imh=268&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true)](https://steamcommunity.com/sharedfiles/filedetails/?id=2081658555)
