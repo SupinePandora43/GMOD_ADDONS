@@ -1,9 +1,9 @@
 {
-	"title"		:	"Tesla Background 2K",
-	"type"		:	"effects",
+	"title"		:	"[simfphys] LW Trailers Pack",
+	"type"		:	"vehicle",
 	"tags"		:	[ "fun", "realism" ],
 	"ignore"	:
 	[
-		"ignore"
+		"logo.png"
 	]
 }
