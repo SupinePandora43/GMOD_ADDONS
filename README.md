@@ -1,3 +1,2 @@
-# [GMOD ADDONS](https://steamcommunity.com/id/SupinePandora/myworkshopfiles/?appid=4000)
+# [Coffin Dance Death Sound](https://steamcommunity.com/sharedfiles/filedetails/?id=2090094152)
 
-For addons what not too big to have their own repository
