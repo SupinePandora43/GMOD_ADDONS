@@ -22,7 +22,7 @@ hook.Add("PlayerSpawn", "Coffin_dance", function(ply, _)
     --    end
     --end
 end)
-hook.Add("PlayerDeath", "Coffin_dance", function(v, _, _)
+hook.Add("PlayerDeath", "Coffin_dance", function(ply, _, _)
     --for _, ply in pairs(deads) do
     --    if ply == v then
             ply:StopSound("coffin/1.wav")
