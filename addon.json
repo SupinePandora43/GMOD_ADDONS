@@ -1,5 +1,8 @@
 {
     "title": "[simfphys] Tesla Semi",
     "type": "vehicle",
-    "tags": ["roleplay", "realism"]
+    "tags": ["roleplay", "realism"],
+    "ignore": [
+        "lua/autorun/simfphys_sgm_tesla_semi.lua"
+    ]
 }
