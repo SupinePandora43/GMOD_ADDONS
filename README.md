@@ -1,5 +1,3 @@
-# [GMOD ADDONS](https://steamcommunity.com/id/SupinePandora/myworkshopfiles/?appid=4000)
+# [TDM Trucks & Trailers](https://steamcommunity.com/sharedfiles/filedetails/?id=2164601477)
 
-For addons what not too big to have their own repository
-
-expand `branch` to see them
+simfphys spawnlists for TDM Trucks/Trailers
