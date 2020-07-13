@@ -1,8 +1,8 @@
-AddCSLuaFile()
+﻿AddCSLuaFile()
 if (file.Exists("models/sentry/teslasemi.mdl", "GAME")) then -- путь модели (".mdl")
-    if CLIENT then
+    --if CLIENT then
 list.Set("simfphys_lights", "simfphys_sgm_tesla_semi", {
-            ModernLights = false, -- грубо говоря, ксенон или старые фары. True - ксенон, false - старые
+            ModernLights = true, -- грубо говоря, ксенон или старые фары. True - ксенон, false - старые
             L_HeadLampPos = Vector( -36.5, 119  , 39.8 ), -- рассположение обычных фар (левых - L)
             L_HeadLampAng = Angle(180, -90, 0), -- угол поворота фар
 
@@ -564,7 +564,7 @@ list.Set("simfphys_lights", "simfphys_sgm_tesla_semi", {
 
             }
         })
-    end
+    --end
     list.Set("simfphys_vehicles", "simfphys_sgm_tesla_semi", {
         Name = "Tesla Semi", -- название машины в меню
         Model = "models/sentry/teslasemi.mdl", -- модель машины (в вкладке дополнения и проп авто)
