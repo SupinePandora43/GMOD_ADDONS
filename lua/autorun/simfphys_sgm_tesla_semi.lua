@@ -571,12 +571,17 @@ local semi = {
     Category = "SGM Trucks", -- категория в которой будет машина
     SpawnOffset = Vector(0, 0, 0),
     SpawnAngleOffset = 90,
-
+    FLEX = {
+        Trailers = {
+            outputPos = Vector(0,-80,45),
+            outputType = "axis"
+        }
+    },
     Members = {
         Mass = 1000, -- масса авто
 
         OnSpawn = function(ent)
-            ent.Exitpoints= {"exit3"}
+            ent.Exitpoints= { "exit3", "exit4" }
             -- ent:SetLightsEnabled(true)
             -- ent:SetLampsEnabled(true)
             -- ent:SetFogLightsEnabled(true)
