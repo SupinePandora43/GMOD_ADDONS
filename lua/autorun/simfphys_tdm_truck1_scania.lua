@@ -83,10 +83,11 @@ local DKCAR = {
     },
     Members = {
         Mass = 1500, -- масса авто
-        -- OnSpawn = function(ent)
+        OnSpawn = function(ent)
+			ent:SetColor(Color(math.random(0,255),math.random(0,255),math.random(0,255)))
         -- ent.ForceTransmission = 2
         --     	ent:SetTrailerCenterposition(Vector(0,68,85)) -- position of center ballsocket for trailer hook
-        -- end,
+        end,
 
         LightsTable = "tdmtruck1", -- название light_table
         SpeedoMax = 149.129,

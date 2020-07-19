@@ -1,6 +1,9 @@
 ﻿AddCSLuaFile()
 if SERVER then
-    resource.AddWorkshop("2164601477")
+    resource.AddWorkshop("2164601477") -- this
+	resource.AddWorkshop("215871671") -- Trailers Pack
+	resource.AddWorkshop("469173046") -- European Trucks Pack
+	resource.AddWorkshop("112606459") -- TDM Base Pack
 end
 -- Reefer 3000R -not long
 local light_table = {
@@ -633,7 +636,7 @@ local DKCAR = {
         FrontWheelRadius = 21, -- радиус переднего колеса
         RearWheelRadius = 21, -- радиус заднего колеса
 
-        CustomMassCenter = Vector(0, 16, 40), -- Vector(0,-40,23.3)
+        CustomMassCenter = Vector(0, 16, 0), -- Vector(0,-40,23.3)
 
         SeatOffset = Vector(0,0,0), -- положение водительского сидения
         SeatPitch = 0,
@@ -704,7 +707,7 @@ local DKCAR = {
         snd_backfire = "common/null.wav",
         --
         DifferentialGear = 0.4,
-        Gears = {-0.2, 0, 0.1} -- кол-во передач и "мощность"
+        Gears = {0.1, 0, -0.1} -- кол-во передач и "мощность"
     }
 }
 if (file.Exists("models/tdmcars/trailers/dolly2.mdl", "GAME")) then -- путь модели (".mdl")

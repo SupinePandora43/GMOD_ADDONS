@@ -95,12 +95,21 @@ local DKCAR = {
     Category = "TDM Trailers", -- категория в которой будет машина
     SpawnOffset = Vector(0, 0, 0),
     SpawnAngleOffset = 0,
-    FLEX = {Trailers = {inputPos = Vector(0, 218.7, 39), inputType = "axis"}},
+    FLEX = {
+		Trailers = {
+			inputPos = Vector(0, 218.7, 39),
+			inputType = "axis",
+			outputPos = Vector(0, -235, 36),
+			outputType = "ballsocket"
+		}
+	},
     Members = {
         Mass = 1150, -- масса авто
 
         OnSpawn = function(ent)
             ent:Lock() -- locks trailer
+			local col = math.random(0,255)
+			ent:SetColor(Color(col,col,col))
             --ent:SetTrailerCenterposition() -- position of center ballsocket for trailer hook
             -- ent:SetCenterposition(Vector(0,-80,36)) -- position of center ballsocket for tow hitch(trailer coupling)
         end,
@@ -126,7 +135,7 @@ local DKCAR = {
         FrontWheelRadius = 21, -- радиус переднего колеса
         RearWheelRadius = 21, -- радиус заднего колеса
 
-        CustomMassCenter = Vector(0, 80, 0),
+        CustomMassCenter = Vector(0, 100, 0),
 
         SeatOffset = Vector(0,0,0), -- положение водительского сидения
         SeatPitch = 0,

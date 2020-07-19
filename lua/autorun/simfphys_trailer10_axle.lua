@@ -135,7 +135,14 @@ local DKCAR = {
     Category = "TDM Trailers", -- категория в которой будет машина
     SpawnOffset = Vector(0, 0, 0),
     SpawnAngleOffset = 0,
-    FLEX = {Trailers = {inputPos = Vector(0, 137.1, 33.6), inputType = "axis"}},
+    FLEX = {
+		Trailers = {
+			inputPos = Vector(0, 137.1, 33.6),
+			inputType = "axis",
+			outputPos = Vector( 0, -180, 40),
+			outputType = "ballsocket"
+		}
+	},
     Members = {
         Mass = 1150, -- масса авто
 
@@ -153,7 +160,7 @@ local DKCAR = {
         FrontWheelRadius = 22, -- радиус переднего колеса
         RearWheelRadius = 22, -- радиус заднего колеса
 
-        CustomMassCenter = Vector(0, 100, 90),
+        CustomMassCenter = Vector(0, 0, 0),
 
         SeatOffset = Vector(0,0,0), -- положение водительского сидения
         SeatPitch = 0,
